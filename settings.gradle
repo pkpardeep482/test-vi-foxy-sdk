@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Vi-Foxy-Test-Sdk"
+include ':app'
+include ':vi-sample-sdk'
+include ':vi-sample-sdk:dynamicfeature'
